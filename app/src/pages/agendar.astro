@@ -224,18 +224,12 @@ if (envCalendlyUrl && envCalendlyUrl.trim().length > 0) {
               </div>
             </div>
 
-            <!-- CARD INFORMATIVO PARA O ADMINISTRADOR -->
-            <div class="mt-6 p-4 rounded-xl bg-surface-container-high/60 border border-surface-container-highest text-sm text-on-surface-variant">
-              <div class="flex items-start gap-3">
-                <span class="material-symbols-outlined text-primary text-[22px] shrink-0 mt-0.5">tune</span>
-                <div>
-                  <span class="font-semibold text-on-surface block mb-1">Integração do Calendly pronta:</span>
-                  <p class="text-xs leading-relaxed">
-                    A estrutura de incorporação do Calendly já está 100% implementada. Para conectar sua agenda oficial, adicione a URL no arquivo <code class="px-1.5 py-0.5 rounded bg-surface-container text-primary font-label-code">.env</code>:
-                  </p>
-                  <pre class="mt-2 p-2 rounded bg-surface-container font-label-code text-xs text-primary overflow-x-auto">CALENDLY_URL=https://calendly.com/fscherer-selfcomp/</pre>
-                </div>
-              </div>
+            <!-- LINK DIRETO DE AGENDAMENTO -->
+            <div class="mt-6">
+              <a href="https://calendly.com/fscherer-selfcomp/" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-primary-container text-on-primary font-semibold text-sm hover:brightness-110 active:scale-95 transition-all shadow-md" data-track="calendly_link_click">
+                <span class="material-symbols-outlined text-[18px]">calendar_month</span>
+                <span>Agendar no Calendly</span>
+              </a>
             </div>
 
             <!-- OPÇÕES IMEDIATAS PARA O VISITANTE -->
