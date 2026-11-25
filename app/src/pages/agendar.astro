@@ -1,4 +1,5 @@
 ---
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 // Página dedicada: /agendar — Agendamento de Diagnóstico Selfcomp
 const envCalendlyUrl = import.meta.env.PUBLIC_CALENDLY_URL || import.meta.env.CALENDLY_URL || '';
 
@@ -13,6 +14,7 @@ if (envCalendlyUrl && envCalendlyUrl.trim().length > 0) {
 <!DOCTYPE html>
 <html class="dark scroll-smooth" lang="pt-BR">
 <head>
+  <GoogleAnalytics />
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>Agendar Diagnóstico — Selfcomp Tecnologia</title>
